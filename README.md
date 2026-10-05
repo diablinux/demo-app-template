@@ -5,7 +5,7 @@ Base template for generated applications deployed through the demo system.
 ## Structure
 
 ```bash
-app-template/
+demo-app-template/
 ├── main.go              # Go application source
 ├── Dockerfile           # Multi-stage Docker build
 ├── .github/
@@ -270,7 +270,8 @@ listeners:
 ### Local Development
 
 ```bash
-cd app-template
+git clone https://github.com/diablinux/demo-app-template
+cd demo-app-template
 
 # Build
 go build -o app main.go

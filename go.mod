@@ -1,4 +1,4 @@
-module app-template
+module github.com/diablinux/demo-app-template
 
 go 1.26
 
